@@ -9,7 +9,7 @@ for (let i = 0; arr.length; i++) {
 const obnovi = () => {
     for (let i = 0; i < articles.length; i++) {
         obnoviartikal_mojpik(articles[i]);
-        console.log(`Artikal ${i} je uspješno obnovljen.`);
+        console.log(`Artikal ${i+1} je uspješno obnovljen.`);
     }
 }
 
